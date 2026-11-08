@@ -1,0 +1,143 @@
+{
+  "id": "method_first_principles",
+  "name": "第一性原理",
+  "aliases": [
+    "First Principles",
+    "第一性原理思维"
+  ],
+  "domainIds": [
+    "thinking"
+  ],
+  "type": "principle",
+  "origin": {
+    "proposer": "亚里士多德（概念起源），Elon Musk（现代推广）",
+    "firstProposedAt": "古希腊时期",
+    "sourceIds": [
+      "src_first_principles"
+    ]
+  },
+  "content": {
+    "coreIdea": "把问题拆解到最基本、不可再分的事实前提上，再从这些前提重新推导结论，而不是从类比和惯例出发。",
+    "principles": [
+      "区分「公理」与「类比假设」——前者是基础，后者是当前做法的理由",
+      "推导过程必须从基础事实出发，不能跳步",
+      "结论如果与常识冲突，需要检查前提而不是结论"
+    ],
+    "mechanism": "类比推理的效率高但受限于既有方案的空间。第一性原理通过拆解前提，理论上能探索到类比无法到达的方案空间，代价是推导成本高得多。",
+    "scenarios": [
+      "产品成本结构的重新拆解",
+      "突破行业惯例的方案设计",
+      "复杂问题的根因定位",
+      "个人决策中的假设检验"
+    ],
+    "conditions": [
+      "问题确实存在可拆解的物理或逻辑基础",
+      "有足够时间与资源做完整推导",
+      "推导者具备相关领域的判断力，否则只是换一种方式出错"
+    ],
+    "steps": [
+      "把当前方案拆解成其依赖的假设清单",
+      "区分哪些是物理/逻辑上的必然，哪些是行业惯例或他人做法",
+      "针对「惯例类」假设问：为什么必须这样？",
+      "从保留下来的基础前提重新推导可行方案",
+      "对比新方案的成本与收益，评估是否值得替换"
+    ],
+    "advantages": [
+      "能突破现有方案的天花板",
+      "强制暴露隐藏在惯例背后的假设",
+      "结论建立在可验证的前提上"
+    ],
+    "disadvantages": [
+      "推导成本高，多数场景性价比不划算",
+      "容易被滥用为「否定现状」的修辞",
+      "对推导者能力要求高，误用风险大"
+    ],
+    "limitations": [
+      "不适用于已有成熟低成本解法的常规问题",
+      "需要大量基础数据支撑，缺数据时容易流于空谈"
+    ],
+    "misconceptions": [
+      "误以为「第一性原理」等于「从零重新发明」 —— 已有方案往往是有效解，问题只在需要突破时",
+      "误以为拆解越细越好 —— 拆解到无法再拆的成本远超收益",
+      "误把它当作万能方法论 —— 它的适用场景远小于其流行程度"
+    ]
+  },
+  "evidence": {
+    "level": "medium",
+    "claims": [
+      {
+        "id": "claim_fp_1",
+        "category": "origin",
+        "statement": "「第一性原理」作为哲学概念可追溯到亚里士多德，指最基础的、公理性层面的前提。",
+        "sourceIds": [],
+        "strength": 0.7,
+        "notes": "此处为公认的思想史背景，但未指向具体原始文献。"
+      },
+      {
+        "id": "claim_fp_2",
+        "category": "practice",
+        "statement": "Elon Musk 在多场合公开使用该表述描述产品成本拆解与材料采购的推理方式。",
+        "sourceIds": [
+          "src_first_principles"
+        ],
+        "strength": 0.65,
+        "notes": "访谈与演讲属公开表述，但缺乏学术性效果评估。"
+      },
+      {
+        "id": "claim_fp_3",
+        "category": "ai_inference",
+        "statement": "「第一性原理普遍优于类比推理」这一强主张缺乏充分实证支持，属于流行叙事而非研究共识。",
+        "sourceIds": [],
+        "strength": 0.6,
+        "notes": "这是 AI 的独立判断，供用户参考。"
+      }
+    ],
+    "confidence": 0.7
+  },
+  "relatedIds": [
+    "method_system_thinking",
+    "method_decision_tree"
+  ],
+  "caseIds": [],
+  "tags": [
+    "推理方式",
+    "拆解",
+    "突破"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:26.704Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:44.059Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:35.358Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:06.657Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:26.704Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
