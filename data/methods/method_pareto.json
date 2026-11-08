@@ -1,0 +1,136 @@
+{
+  "id": "method_pareto",
+  "name": "二八法则",
+  "aliases": [
+    "Pareto Principle",
+    "80/20 法则",
+    "帕累托法则"
+  ],
+  "domainIds": [
+    "thinking",
+    "work_methods"
+  ],
+  "type": "principle",
+  "origin": {
+    "proposer": "Vilfredo Pareto",
+    "firstProposedAt": "19世纪末（1896年）",
+    "sourceIds": [
+      "src_pareto_original"
+    ]
+  },
+  "content": {
+    "coreIdea": "在许多分布中，约 80% 的结果来自 20% 的原因。识别出这关键的少数，把资源集中到那里。",
+    "principles": [
+      "少数原因造成多数结果是常见分布特征，不是普遍定律",
+      "必须先做分类统计才能找出那 20%",
+      "不同领域的具体比例不同，不能机械套用 80/20"
+    ],
+    "mechanism": "资源分配的机会成本很高时，把注意力集中到高产出部分能获得最大边际收益。前提是分布确实不均匀。",
+    "scenarios": [
+      "客户贡献度分析",
+      "个人时间与精力分配",
+      "缺陷根因排查",
+      "产品功能使用频次分析"
+    ],
+    "conditions": [
+      "分布必须近似幂律，均匀分布时法则无意义",
+      "必须基于实际数据统计，不能凭感觉判断",
+      "「关键少数」会随时间变化，需要定期重算"
+    ],
+    "steps": [
+      "对现象进行分类统计，得出各项的数量或贡献",
+      "按贡献从大到小排序",
+      "计算累计占比，找出贡献前 20% 的项目",
+      "把主要资源投向这部分，同时保留对长尾的基本覆盖"
+    ],
+    "advantages": [
+      "在资源有限时提供明确的优先级依据",
+      "统计方法简单，容易执行",
+      "引导关注被忽略的高价值少数"
+    ],
+    "disadvantages": [
+      "80/20 的具体比例是经验值，不同领域差异很大",
+      "容易被当作忽略长尾的理由",
+      "分类方式不同会得到不同结论"
+    ],
+    "limitations": [
+      "不适用于分布均匀的领域",
+      "不适合所有项目价值必须被保障的场景"
+    ],
+    "misconceptions": [
+      "误以为任何场景都是 80/20 —— 比例本身是经验描述",
+      "误以为可以完全忽略长尾 —— 长尾的忽视成本可能很高",
+      "误把「二八」当成精确目标 —— 它是分配策略的启发式"
+    ]
+  },
+  "evidence": {
+    "level": "high",
+    "claims": [
+      {
+        "id": "claim_pareto_1",
+        "category": "origin",
+        "statement": "帕累托在 1896 年观察到意大利土地所有权分布中少数人口占有多数土地，随后提出分布规律。",
+        "sourceIds": [
+          "src_pareto_original"
+        ],
+        "strength": 0.9,
+        "notes": null
+      },
+      {
+        "id": "claim_pareto_2",
+        "category": "research",
+        "statement": "幂律分布在诸多领域被观测到，但并非所有分布都符合二八结构。",
+        "sourceIds": [],
+        "strength": 0.7,
+        "notes": null
+      }
+    ],
+    "confidence": 0.85
+  },
+  "relatedIds": [
+    "method_decision_tree",
+    "method_system_thinking"
+  ],
+  "caseIds": [],
+  "tags": [
+    "优先级",
+    "资源分配",
+    "分布"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:34.969Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:49.773Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:41.876Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:14.247Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:34.969Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
