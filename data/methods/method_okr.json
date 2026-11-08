@@ -1,0 +1,137 @@
+{
+  "id": "method_okr",
+  "name": "OKR 目标管理法",
+  "aliases": [
+    "Objectives and Key Results",
+    "目标与关键结果"
+  ],
+  "domainIds": [
+    "management"
+  ],
+  "type": "framework",
+  "origin": {
+    "proposer": "Andy Grove（Intel 时期提出），John Doerr（推广并体系化）",
+    "firstProposedAt": "1970年代（Intel）",
+    "sourceIds": [
+      "src_okr_google"
+    ]
+  },
+  "content": {
+    "coreIdea": "用一个鼓舞人心的定性目标（Objective）指明方向，再用若干可量化的关键结果（Key Results）定义「怎样算达成」。目标负责对齐方向，关键结果负责让进展可见。",
+    "principles": [
+      "目标要定性、有感召力，能让人知道自己为什么做",
+      "关键结果必须可量化、可验证",
+      "关键结果是「结果的度量」，不是「待办事项清单」"
+    ],
+    "mechanism": "把「方向」与「度量」分离，让组织既能对齐意图，又能量化进展。关键结果的公开可见性降低了跨部门协作中的信息不对称。",
+    "scenarios": [
+      "季度目标设定与对齐",
+      "创业公司的目标管理",
+      "跨部门项目的里程碑拆解",
+      "个人年度目标规划"
+    ],
+    "conditions": [
+      "组织文化能接受「目标不是承诺」的前提，否则会被当作 KPI",
+      "关键结果必须真的可量化，不能用模糊表述",
+      "需要定期复盘节奏（如每周或双周检查）"
+    ],
+    "steps": [
+      "设定一个鼓舞人心且方向明确的目标",
+      "为每个目标定义 2-4 个可量化的关键结果",
+      "把目标与关键结果公开对齐到相关团队",
+      "定期检查进展，根据实际情况调整关键结果",
+      "周期结束后复盘并进入下一轮"
+    ],
+    "advantages": [
+      "目标与度量分离，既保留方向感又保证可验证",
+      "公开对齐减少信息不对称",
+      "天然支持跨团队协作与优先级排序"
+    ],
+    "disadvantages": [
+      "容易蜕变为层层分解的 KPI，失去敏捷性",
+      "关键结果的量化难度大，容易流于形式",
+      "对组织文化要求高，不适合强控制型环境"
+    ],
+    "limitations": [
+      "不适用于需要长期稳定路径、难以短期度量的工作",
+      "在层级森严、执行力弱的组织中难以发挥作用"
+    ],
+    "misconceptions": [
+      "误把 OKR 当作 KPI —— OKR 是方向对齐工具，不是考核工具",
+      "误把关键结果写成任务清单 —— 任务写的是「做了什么」，KR 写的是「结果如何」",
+      "误以为关键结果不能调整 —— OKR 的价值之一就是允许根据实际调整"
+    ]
+  },
+  "evidence": {
+    "level": "medium",
+    "claims": [
+      {
+        "id": "claim_okr_1",
+        "category": "origin",
+        "statement": "OKR 由 Andy Grove 在 Intel 时期引入，John Doerr 在书中记录了其演进与推广过程。",
+        "sourceIds": [
+          "src_okr_google"
+        ],
+        "strength": 0.85,
+        "notes": null
+      },
+      {
+        "id": "claim_okr_2",
+        "category": "practice",
+        "statement": "OKR 被多家科技公司采用为季度目标管理框架。",
+        "sourceIds": [
+          "src_okr_google"
+        ],
+        "strength": 0.8,
+        "notes": null
+      }
+    ],
+    "confidence": 0.8
+  },
+  "relatedIds": [
+    "method_pdca",
+    "method_swot"
+  ],
+  "caseIds": [],
+  "tags": [
+    "目标管理",
+    "战略对齐",
+    "量化"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:24.979Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:42.432Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:33.502Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:04.399Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:24.979Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
