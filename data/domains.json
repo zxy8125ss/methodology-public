@@ -1,0 +1,84 @@
+{
+  "domains": [
+    {
+      "id": "management",
+      "name": "管理与组织方法",
+      "description": "",
+      "parentId": null,
+      "order": 0,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "personal_growth",
+      "name": "个人成长与自我管理",
+      "description": "",
+      "parentId": null,
+      "order": 1,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "thinking",
+      "name": "思维模型与认知方法",
+      "description": "",
+      "parentId": null,
+      "order": 2,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "work_methods",
+      "name": "工作方法与效率工具",
+      "description": "",
+      "parentId": null,
+      "order": 3,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "communication",
+      "name": "沟通、谈判与决策方法",
+      "description": "",
+      "parentId": null,
+      "order": 4,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "learning",
+      "name": "学习方法与知识管理",
+      "description": "",
+      "parentId": null,
+      "order": 5,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "business",
+      "name": "商业、经营与赚钱方法",
+      "description": "",
+      "parentId": null,
+      "order": 6,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "life",
+      "name": "生活中的实用方法论",
+      "description": "",
+      "parentId": null,
+      "order": 7,
+      "keywords": [],
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    }
+  ]
+}
