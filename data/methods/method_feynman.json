@@ -1,0 +1,137 @@
+{
+  "id": "method_feynman",
+  "name": "费曼学习法",
+  "aliases": [
+    "Feynman Technique",
+    "以教代学",
+    "费曼技巧"
+  ],
+  "domainIds": [
+    "learning"
+  ],
+  "type": "process",
+  "origin": {
+    "proposer": " popularly attributed to Richard Feynman（确切出处存疑）",
+    "firstProposedAt": null,
+    "sourceIds": [
+      "src_feynman_technique"
+    ]
+  },
+  "content": {
+    "coreIdea": "假装向一个外行讲解你正在学的东西，用最朴素的语言讲清楚。讲不下去的地方，就是你还没真懂的地方。",
+    "principles": [
+      "用自己的话重述，不能照抄定义",
+      "面向「完全不懂的人」讲，禁止使用行话",
+      "卡壳处即为知识盲区，需要回到原始材料补齐",
+      "讲完后回头简化，去掉所有多余修饰"
+    ],
+    "mechanism": "提取练习（主动回忆）本身就能检验理解程度；面向外行的表达约束进一步暴露了「知道答案但说不清」的伪理解。两者叠加使学习效果可自我验证。",
+    "scenarios": [
+      "学习新概念的自检",
+      "准备面试或授课",
+      "技术文档的通俗化写作",
+      "长期知识体系的巩固"
+    ],
+    "conditions": [
+      "需要选择合适的主题粒度 —— 太大讲不透，太小无意义",
+      "需要容忍最初的「讲不出来」，这是方法的正常阶段",
+      "需要回到原始资料核对，卡壳不能靠猜"
+    ],
+    "steps": [
+      "选定要掌握的概念，写在纸的顶端",
+      "假装向完全不懂的人讲解，用最朴素的语言",
+      "卡住的地方做标记",
+      "回到原始资料补齐标记处，重新理解",
+      "简化语言后再次完整讲解"
+    ],
+    "advantages": [
+      "自检效率高，能快速定位知识盲区",
+      "强制建立知识之间的联系",
+      "产出可直接用于教学或沟通的内容"
+    ],
+    "disadvantages": [
+      "对「什么是学会了」的判定带有主观性",
+      "初期体验挫败，容易让人误以为自己不适合学",
+      "耗时高于被动阅读"
+    ],
+    "limitations": [
+      "不适合作为首次接触大量新知识的唯一方法",
+      "不适合纯技能型、需身体练习的内容"
+    ],
+    "misconceptions": [
+      "误以为「能讲出来」就等于完全掌握 —— 讲解深度和准确性仍需检验",
+      "误把它当成快速记忆技巧 —— 它是理解检验工具，不是记忆方法",
+      "误以为必须讲给别人听 —— 讲给自己或写在纸上同样有效"
+    ]
+  },
+  "evidence": {
+    "level": "low",
+    "claims": [
+      {
+        "id": "claim_feynman_1",
+        "category": "practice",
+        "statement": "「费曼技巧」这一名称与理查德·费曼的关联在公开资料中存在争议，无法确认其本人提出过该方法。",
+        "sourceIds": [
+          "src_feynman_technique"
+        ],
+        "strength": 0.5,
+        "notes": "这属于对该方法提出者归属的明确保留意见。"
+      },
+      {
+        "id": "claim_feynman_2",
+        "category": "research",
+        "statement": "「提取练习」与「自我解释」在学习科学中有较多研究支持，被认为有助于长期记忆与理解。",
+        "sourceIds": [],
+        "strength": 0.7,
+        "notes": "机制层面有支持，但与「费曼学习法」这一具体命名不能等同。"
+      }
+    ],
+    "confidence": 0.6
+  },
+  "relatedIds": [
+    "method_retrospective",
+    "method_spaced_repetition"
+  ],
+  "caseIds": [],
+  "tags": [
+    "学习方法",
+    "输出",
+    "自检"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:33.358Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:48.193Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:40.213Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:12.427Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:33.358Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
