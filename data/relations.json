@@ -1,0 +1,100 @@
+{
+  "relations": [
+    {
+      "id": "rel_pdca_retro",
+      "fromId": "method_pdca",
+      "toId": "method_retrospective",
+      "type": "complementary",
+      "explanation": "PDCA 的「检查」环节提供偏差数据，结构化复盘提供差异分析的方法论，两者配合构成完整的改进回路。",
+      "evidenceRefs": [],
+      "confidence": 0.85,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_pdca_okr",
+      "fromId": "method_pdca",
+      "toId": "method_okr",
+      "type": "complementary",
+      "explanation": "OKR 提供目标与度量标准，PDCA 提供达成目标的迭代机制，前者解决「往哪走」，后者解决「怎么持续改进」。",
+      "evidenceRefs": [],
+      "confidence": 0.8,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_fp_system",
+      "fromId": "method_first_principles",
+      "toId": "method_system_thinking",
+      "type": "similar",
+      "explanation": "两者都强调回到基础结构理解问题，第一性原理关注不可再分的公理，系统思维关注要素间的反馈关系。",
+      "evidenceRefs": [],
+      "confidence": 0.75,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_fp_dt",
+      "fromId": "method_first_principles",
+      "toId": "method_decision_tree",
+      "type": "application",
+      "explanation": "第一性原理可用于拆解决策树中的假设前提，判断某个分支是否建立在真实约束上。",
+      "evidenceRefs": [],
+      "confidence": 0.7,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_swot_okr",
+      "fromId": "method_swot",
+      "toId": "method_okr",
+      "type": "application",
+      "explanation": "SWOT 分析得到的外部机会与内部优势可转化为 OKR 的目标来源，形成「分析—定目标」的衔接。",
+      "evidenceRefs": [],
+      "confidence": 0.7,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_feynman_retro",
+      "fromId": "method_feynman",
+      "toId": "method_retrospective",
+      "type": "complementary",
+      "explanation": "费曼学习法是知识输入端的理解检验，复盘是输出端的经验提取，两者共同构成学习闭环。",
+      "evidenceRefs": [],
+      "confidence": 0.8,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_pareto_dt",
+      "fromId": "method_pareto",
+      "toId": "method_decision_tree",
+      "type": "application",
+      "explanation": "在决策树的末端结果中识别高贡献分支，可把资源集中到影响最大的路径上。",
+      "evidenceRefs": [],
+      "confidence": 0.7,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "rel_swot_dt",
+      "fromId": "method_swot",
+      "toId": "method_decision_tree",
+      "type": "complementary",
+      "explanation": "SWOT 提供环境扫描的维度，决策树提供选择的结构，两者结合可把定性分析接入定量决策。",
+      "evidenceRefs": [],
+      "confidence": 0.65,
+      "origin": "ai",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    }
+  ]
+}
