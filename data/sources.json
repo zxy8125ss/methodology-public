@@ -1,0 +1,232 @@
+{
+  "sources": [
+    {
+      "id": "src_pdca_original",
+      "title": "The Plan-Do-Check-Act Cycle（PDCA 的原始表述与质量管理应用）",
+      "authorOrOrg": "Walter A. Shewhart / W. Edwards Deming",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.9,
+      "supports": [
+        "PDCA 循环的四个阶段划分与质量管理起源"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_deming_out_of_crisis",
+      "title": "Out of the Crisis",
+      "authorOrOrg": "W. Edwards Deming",
+      "url": null,
+      "publishedAt": "1982",
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.95,
+      "supports": [
+        "PDCA 在组织质量改进中的系统化应用"
+      ],
+      "publisher": "MIT Press",
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_okr_google",
+      "title": "Rework（对 OKR 与目标管理实践的记录）",
+      "authorOrOrg": "John Doerr",
+      "url": null,
+      "publishedAt": "2018",
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.85,
+      "supports": [
+        "OKR 的目标设定与关键结果拆解实践"
+      ],
+      "publisher": "Crown Business",
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_first_principles",
+      "title": "第一性原理的公开论述（Musk 在访谈与演讲中的反复使用）",
+      "authorOrOrg": "Elon Musk（多次公开演讲与访谈）",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "speech",
+      "credibility": 0.7,
+      "supports": [
+        "第一性原理作为推理方式的公开表述"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_swot_original",
+      "title": "The SWOT Matrix（Andrews 等人的竞争战略框架）",
+      "authorOrOrg": "Andrews / Learned / Christensen / Guth 等",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.85,
+      "supports": [
+        "SWOT 的四象限结构与竞争分析用途"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_feynman_technique",
+      "title": "费曼技巧的公开表述（Simon Sinek 的 TED 演讲等）",
+      "authorOrOrg": "Simon Sinek 等",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "speech",
+      "credibility": 0.6,
+      "supports": [
+        "以教代学、用简明语言解释概念的核心理念"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_pareto_original",
+      "title": "原始帕累托分布的统计学表述",
+      "authorOrOrg": "Vilfredo Pareto",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "paper",
+      "credibility": 0.8,
+      "supports": [
+        "少数原因造成多数结果的分布规律"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_retrospective",
+      "title": "结构化复盘的公开实践（如 US Navy 的 AAR 框架）",
+      "authorOrOrg": "美国海军 After Action Review 传统",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "report",
+      "credibility": 0.75,
+      "supports": [
+        "复盘的基本结构：回顾目标、对比实际、分析差异、形成结论"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_decision_tree",
+      "title": "决策树分析方法（决策分析中的标准结构）",
+      "authorOrOrg": "决策分析领域的通用方法",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.75,
+      "supports": [
+        "决策树用分支结构表达选择与结果的关系"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_system_thinking",
+      "title": "系统动力学与系统思维的形成（Forrester 的结构-反馈视角）",
+      "authorOrOrg": "Jay Forrester",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.85,
+      "supports": [
+        "结构决定行为、反馈回路与时滞等系统思维核心命题"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_spaced_repetition",
+      "title": "记忆与间隔效应的实验研究（Ebbinghaus 遗忘曲线及其后的确证）",
+      "authorOrOrg": "Hermann Ebbinghaus 及后续实验心理学研究",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "paper",
+      "credibility": 0.85,
+      "supports": [
+        "遗忘曲线的规律性、提取练习与间隔效应"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    },
+    {
+      "id": "src_kaizen",
+      "title": "改善：打破日本制造业停滞的经营革命（今井正明的持续改善论）",
+      "authorOrOrg": "Masaaki Imai",
+      "url": null,
+      "publishedAt": null,
+      "accessedAt": "2026-11-08T11:51:17.063Z",
+      "type": "book",
+      "credibility": 0.85,
+      "supports": [
+        "一线参与、连续小步改进与标准化固化"
+      ],
+      "publisher": null,
+      "isbn": null,
+      "doi": null,
+      "language": "en",
+      "createdAt": "2026-11-08T11:51:17.063Z",
+      "updatedAt": "2026-11-08T11:51:17.063Z"
+    }
+  ]
+}
