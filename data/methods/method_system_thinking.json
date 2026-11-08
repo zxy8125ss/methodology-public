@@ -1,0 +1,143 @@
+{
+  "id": "method_system_thinking",
+  "name": "系统思维",
+  "aliases": [
+    "Systems Thinking",
+    "系统思考",
+    "Systems Approach"
+  ],
+  "domainIds": [
+    "thinking"
+  ],
+  "subDomainIds": [],
+  "type": "framework",
+  "origin": {
+    "proposer": "Jay Forrester（系统动力学奠基）",
+    "firstProposedAt": "1956-01-01",
+    "sourceIds": [
+      "src_system_thinking"
+    ]
+  },
+  "content": {
+    "coreIdea": "把研究对象看作一个由相互关联的元素构成的整体系统，通过识别结构、反馈回路与时滞，理解系统行为为何偏离直觉，从而找到高杠杆点的干预位置。",
+    "principles": [
+      "结构决定行为——改变系统结果要改变其结构，而不只是处理表层症状",
+      "关注反馈回路——增强型回路放大偏差，调节型回路抑制偏差",
+      "注意时滞——原因与结果之间的时间间隔会导致过度纠偏（overcorrection）",
+      "系统边界决定观察结果——换一个边界看同一问题会得到不同答案"
+    ],
+    "mechanism": "系统的行为模式由元素间的连接结构（而非单个元素的性质）产生。因果反馈回路形成自我强化的模式，时滞使线性直觉失效。识别这些结构后，杠杆点理论指出干预存在效力层级：在参数上微调通常弱于改变回路结构或信息流。",
+    "scenarios": [
+      "组织变革中的结构性问题诊断",
+      "复杂系统的行为解释与干预设计",
+      "跨部门协同与系统级瓶颈识别",
+      "政策后果的长周期影响评估"
+    ],
+    "conditions": [
+      "需要足够长的时间尺度观察才能识别反馈回路",
+      "需要承认边界选择本身会影响结论",
+      "在强非线性区域，模型只是近似而非预测"
+    ],
+    "steps": [
+      "界定系统边界与时间尺度",
+      "识别关键要素与它们之间的连接关系",
+      "绘制因果回路图，标注增强型与调节型回路",
+      "识别时滞位置",
+      "寻找高杠杆干预点并小范围试验",
+      "观察系统响应并更新回路图"
+    ],
+    "advantages": [
+      "能解释「局部优化反而恶化整体」这类现象",
+      "把一次性救火转为结构性改进",
+      "提供跨层级的统一分析语言"
+    ],
+    "disadvantages": [
+      "概念抽象，难与日常决策直接对接",
+      "画回路图容易主观臆测，缺少唯一正解",
+      "在数据不足时容易变成讲故事"
+    ],
+    "limitations": [
+      "对短周期、单一因果的场景是过度复杂化",
+      "系统动力学模型依赖假设，假设不可验证则结论不可靠",
+      "难以量化预测，多用于解释而非精算"
+    ],
+    "misconceptions": [
+      "误以为系统思维就是「全局视角」，其实关键是结构与反馈",
+      "误把画图本身当成分析，缺少数据支撑的回路图只是叙事",
+      "误认为关注系统就等于忽略个体执行，二者需分别处理"
+    ]
+  },
+  "evidence": {
+    "level": "high",
+    "claims": [
+      {
+        "id": "claim_sys_1",
+        "category": "origin",
+        "statement": "Forrester 在 1956 年《系统动力学》著作中奠定了系统动力学基础，结构与反馈的建模视角由此确立。",
+        "sourceIds": [
+          "src_system_thinking"
+        ],
+        "strength": 0.9,
+        "notes": null
+      },
+      {
+        "id": "claim_sys_2",
+        "category": "practice",
+        "statement": "系统思维在公共政策、供应链与环境治理中被广泛用于识别 unintended consequences（ unintended consequences 的系统性来源）。",
+        "sourceIds": [],
+        "strength": 0.65,
+        "notes": "应用案例的证据分散，未指向单一权威文献。"
+      },
+      {
+        "id": "claim_sys_3",
+        "category": "ai_inference",
+        "statement": "把系统思维与第一性原理、PDCA 并列作为个人决策的通用框架属于 AI 的结构类比，其个人应用效果缺少直接实证。",
+        "sourceIds": [],
+        "strength": 0.45,
+        "notes": "这是 AI 基于结构相似性做出的推断，不是原作者观点。"
+      }
+    ],
+    "confidence": 0.8
+  },
+  "relatedIds": [
+    "method_first_principles",
+    "method_pareto",
+    "method_decision_tree"
+  ],
+  "caseIds": [],
+  "tags": [
+    "系统思维",
+    "复杂性",
+    "反馈回路",
+    "杠杆点"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 3,
+  "createdAt": "2026-11-08T11:47:26.494Z",
+  "updatedAt": "2026-11-08T11:51:38.946Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:47:44.608Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:49:17.813Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:51:38.946Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
