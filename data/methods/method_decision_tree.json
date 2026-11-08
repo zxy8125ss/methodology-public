@@ -1,0 +1,129 @@
+{
+  "id": "method_decision_tree",
+  "name": "决策树",
+  "aliases": [
+    "Decision Tree",
+    "决策树分析"
+  ],
+  "domainIds": [
+    "thinking",
+    "communication"
+  ],
+  "type": "tool",
+  "origin": {
+    "proposer": "决策分析领域的标准方法（具体提出者待考）",
+    "firstProposedAt": null,
+    "sourceIds": [
+      "src_decision_tree"
+    ]
+  },
+  "content": {
+    "coreIdea": "用树状结构表达决策：每个节点是一个选择或机会事件，分支是可能的结果，叶节点是最终结局。结构化之后，选择的逻辑和风险点都变得可见。",
+    "principles": [
+      "节点必须是决策点或机会事件，不能混杂",
+      "分支必须穷尽所有可能，不留隐含选项",
+      "末端叶节点必须对应可比较的结果"
+    ],
+    "mechanism": "图形化把「我到底在选什么」显性化。分支的穷尽性要求迫使决策者意识到被忽略的选项，末端统一的结果维度让不同路径可直接比较。",
+    "scenarios": [
+      "职业路径选择",
+      "技术方案选型",
+      "投资决策分析",
+      "风险识别与预案设计"
+    ],
+    "conditions": [
+      "决策点数量不能太多，否则树会失控",
+      "分支概率或收益需要有一定依据",
+      "适合单一决策者、单一目标的决策"
+    ],
+    "steps": [
+      "明确最终要决定什么（根节点）",
+      "列出该决策下的主要选项（第一层分支）",
+      "对每个选项展开后续可能情况",
+      "为末端标注结果与代价",
+      "比较各路径，用数据或判断收敛到决策"
+    ],
+    "advantages": [
+      "把决策逻辑可视化，沟通效率高",
+      "穷尽性要求能暴露被忽略的选项",
+      "便于识别风险点与关键决策节点"
+    ],
+    "disadvantages": [
+      "分支爆炸时难以维护",
+      "概率难以准确估计时容易产生虚假精确",
+      "不适合多目标同时权衡的决策"
+    ],
+    "limitations": [
+      "不适合选项持续新增的开放性决策",
+      "不适合需要实时调整的动态环境"
+    ],
+    "misconceptions": [
+      "误以为画完树就等于做完了决策 —— 还需比较与收敛",
+      "误把概率当成客观事实 —— 多数情况下的概率是主观估计",
+      "误以为树能穷尽所有风险 —— 存在完全未知的风险"
+    ]
+  },
+  "evidence": {
+    "level": "medium",
+    "claims": [
+      {
+        "id": "claim_dt_1",
+        "category": "research",
+        "statement": "决策树是决策分析与不确定性建模中的标准工具，结构化表达选择与结果的对应关系。",
+        "sourceIds": [
+          "src_decision_tree"
+        ],
+        "strength": 0.8,
+        "notes": null
+      }
+    ],
+    "confidence": 0.75
+  },
+  "relatedIds": [
+    "method_first_principles",
+    "method_swot",
+    "method_pareto"
+  ],
+  "caseIds": [],
+  "tags": [
+    "决策",
+    "结构化",
+    "可视化"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:36.961Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:52.104Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:43.409Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:16.143Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:36.961Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
