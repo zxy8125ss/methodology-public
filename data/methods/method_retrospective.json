@@ -1,0 +1,130 @@
+{
+  "id": "method_retrospective",
+  "name": "结构化复盘",
+  "aliases": [
+    "复盘方法",
+    "After Action Review",
+    "AAR",
+    "回顾分析"
+  ],
+  "domainIds": [
+    "work_methods",
+    "personal_growth"
+  ],
+  "type": "process",
+  "origin": {
+    "proposer": "美国军队 After Action Review 传统，后被企业界广泛借用",
+    "firstProposedAt": "20世纪",
+    "sourceIds": [
+      "src_retrospective"
+    ]
+  },
+  "content": {
+    "coreIdea": "在事件结束后系统回顾：原本预期发生什么、实际发生了什么、差异出在哪里、下次怎么改。核心不是追责，而是提取可复用的学习。",
+    "principles": [
+      "复盘的目的是学习，不是评判当事人",
+      "先还原事实，再分析原因，最后形成行动项",
+      "差异分析要区分「决策当时的信息条件」和「事后的信息条件」"
+    ],
+    "mechanism": "结构化的追问顺序把「叙述」变成「分析」，避免会议变成故事分享。强制对照预期与实际，让隐性偏差暴露出来。",
+    "scenarios": [
+      "项目结束后的经验总结",
+      "故障与失误的分析",
+      "个人月度与季度回顾",
+      "团队协作模式的改进"
+    ],
+    "conditions": [
+      "需要事先记录预期目标，否则无法对比",
+      "参与者的心理安全度足够，否则不敢讲真实情况",
+      "必须有行动项，否则复盘变成情绪宣泄"
+    ],
+    "steps": [
+      "回顾原定目标：当时想达成什么，标准是什么",
+      "陈述实际结果：客观发生了什么，用事实而非评价",
+      "分析差异：哪些因素促成了偏差，哪些被忽略",
+      "提炼结论：哪些做法有效应保留，哪些应调整",
+      "形成行动项：具体、可执行、有责任人和时间"
+    ],
+    "advantages": [
+      "把经验转化为可复用的组织记忆",
+      "强制区分事实与判断，减少归因偏差",
+      "产出明确行动项而非泛泛感想"
+    ],
+    "disadvantages": [
+      "耗时，且需要提前记录才有效",
+      "容易滑向追责文化，一旦如此就会失真",
+      "对没有预期基线的场景难以开展"
+    ],
+    "limitations": [
+      "不适合尚未结束、仍在演进的事项",
+      "不适合需要实时调整的场景"
+    ],
+    "misconceptions": [
+      "误以为复盘是批评会 —— 追责会让信息失真，复盘就失效了",
+      "误以为复盘就是聊天回顾 —— 没有对照预期与实际就没有分析",
+      "误以为一次复盘能解决所有问题 —— 需要持续执行才能形成改进"
+    ]
+  },
+  "evidence": {
+    "level": "medium",
+    "claims": [
+      {
+        "id": "claim_retro_1",
+        "category": "origin",
+        "statement": "结构化复盘的基本框架源自美国海军的 After Action Review 实践，包含目标对照、差异分析与结论三个环节。",
+        "sourceIds": [
+          "src_retrospective"
+        ],
+        "strength": 0.8,
+        "notes": null
+      }
+    ],
+    "confidence": 0.75
+  },
+  "relatedIds": [
+    "method_pdca",
+    "method_feynman"
+  ],
+  "caseIds": [],
+  "tags": [
+    "经验总结",
+    "改进",
+    "反思"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:30.570Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:46.830Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:38.634Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:10.744Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:30.570Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
