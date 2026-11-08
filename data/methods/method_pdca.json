@@ -1,0 +1,148 @@
+{
+  "id": "method_pdca",
+  "name": "PDCA 循环",
+  "aliases": [
+    "Plan-Do-Check-Act",
+    "戴明循环",
+    "PDCA 循环法"
+  ],
+  "domainIds": [
+    "management",
+    "work_methods"
+  ],
+  "type": "process",
+  "origin": {
+    "proposer": "Walter A. Shewhart（提出雏形），W. Edwards Deming（在日本推广并命名 PDCA）",
+    "firstProposedAt": "1930年代（Shewhart 时期）",
+    "sourceIds": [
+      "src_pdca_original",
+      "src_deming_out_of_crisis"
+    ]
+  },
+  "content": {
+    "coreIdea": "把改进工作拆成「计划—执行—检查—处理」四个阶段闭环循环，通过不断迭代实现持续改进。每轮循环的检查结果直接进入下一轮的计划环节，形成自我修正的机制。",
+    "principles": [
+      "改进是一个循环过程，不是一次性动作",
+      "检查环节必须对照事先设定的标准，否则无法判断偏差",
+      "处理环节的核心是「标准化」——把有效做法固化，把无效做法转入下一轮"
+    ],
+    "mechanism": "闭环结构让「发现问题」和「解决问题」不再是两件割裂的事。检查产生的偏差信息直接成为下一轮计划的输入，因此改进速度取决于循环周期而非单次改进质量。",
+    "scenarios": [
+      "生产制造中的质量改进",
+      "项目管理中的持续迭代",
+      "个人习惯养成的闭环设计",
+      "组织流程的持续优化"
+    ],
+    "conditions": [
+      "需要事先明确的标准与目标，否则「检查」环节无法判定偏差",
+      "循环周期不能过长，否则反馈延迟会削弱学习效果",
+      "「处理」环节要有落地机制，否则改进停留在纸面"
+    ],
+    "steps": [
+      "Plan：明确目标与衡量标准，分析现状，识别差距",
+      "Do：小范围执行计划，记录执行过程与观察到的数据",
+      "Check：将实际结果与标准对比，量化差距",
+      "Act：有效做法标准化并推广，无效做法分析原因并转入下一轮 Plan"
+    ],
+    "advantages": [
+      "结构简单，容易在各类场景中落地",
+      "把改进从「一次性项目」变成可持续的日常机制",
+      "检查环节强制量化对比，减少主观判断"
+    ],
+    "disadvantages": [
+      "循环周期长时反馈滞后",
+      "在高度创新、无法量化的事务上难以设定「标准」",
+      "容易被形式主义化，变成填表打卡"
+    ],
+    "limitations": [
+      "不适用于没有可测量标准的探索性工作",
+      "不适合需要快速试错并立即获得方向反馈的场景"
+    ],
+    "misconceptions": [
+      "误以为四个阶段必须严格串行，实际中 Plan 和 Act 常需要反复迭代",
+      "误以为走完一轮就结束，PDCA 的价值在于持续循环",
+      "误把「处理」理解为「结束项目」，其核心是标准化与推广"
+    ]
+  },
+  "evidence": {
+    "level": "high",
+    "claims": [
+      {
+        "id": "claim_pdca_1",
+        "category": "origin",
+        "statement": "PDCA 的四阶段结构源自 Shewhart 的统计质量控制循环，Deming 在 1950 年代将其引入日本质量管理并推广。",
+        "sourceIds": [
+          "src_pdca_original",
+          "src_deming_out_of_crisis"
+        ],
+        "strength": 0.9,
+        "notes": null
+      },
+      {
+        "id": "claim_pdca_2",
+        "category": "practice",
+        "statement": "PDCA 在日本制造业质量改进中被大规模应用，Deming 的著作记录了这一实践路径。",
+        "sourceIds": [
+          "src_deming_out_of_crisis"
+        ],
+        "strength": 0.85,
+        "notes": null
+      },
+      {
+        "id": "claim_pdca_3",
+        "category": "ai_inference",
+        "statement": "把 PDCA 迁移到个人习惯与知识管理场景属于类比应用，其有效性缺少直接实证支持。",
+        "sourceIds": [],
+        "strength": 0.5,
+        "notes": "这是 AI 基于结构相似性做出的推断，不是原作者观点。"
+      }
+    ],
+    "confidence": 0.85
+  },
+  "relatedIds": [
+    "method_retrospective",
+    "method_kaizen"
+  ],
+  "caseIds": [],
+  "tags": [
+    "持续改进",
+    "质量管理",
+    "闭环"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:22.827Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:41.073Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:31.792Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:02.714Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:22.827Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
