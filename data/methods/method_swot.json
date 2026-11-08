@@ -1,0 +1,127 @@
+{
+  "id": "method_swot",
+  "name": "SWOT 分析",
+  "aliases": [
+    "Strengths Weaknesses Opportunities Threats",
+    "四象限分析法"
+  ],
+  "domainIds": [
+    "thinking",
+    "business"
+  ],
+  "type": "framework",
+  "origin": {
+    "proposer": "Albert Humphrey / Learned / Andrews 等（20世纪60年代前后）",
+    "firstProposedAt": "1960年代",
+    "sourceIds": [
+      "src_swot_original"
+    ]
+  },
+  "content": {
+    "coreIdea": "从内部优势、内部劣势、外部机会、外部威胁四个维度描述现状，形成一张结构化的战略分析表。",
+    "principles": [
+      "内部因素（优势/劣势）与外部因素（机会/威胁）必须区分清楚",
+      "四个象限是描述工具，不是评价工具——本身不含好坏判断",
+      "分析的价值在交叉推演，不在罗列清单"
+    ],
+    "mechanism": "强制把内外因素分开，避免「内部原因归内部、外部原因归外部」的归因偏差。四象限的结构化让跨维度组合成为可能。",
+    "scenarios": [
+      "企业战略分析",
+      "个人职业选择",
+      "产品市场进入评估",
+      "项目立项前的环境扫描"
+    ],
+    "conditions": [
+      "分析者对对象有足够了解，能给出具体而非泛泛的条目",
+      "四个象限的条目需要相互关联，孤立罗列无意义",
+      "外部因素需要有外部信息支撑，不能纯靠想象"
+    ],
+    "steps": [
+      "列出当前的内部优势（可控的、已具备的）",
+      "列出内部劣势（可控的、缺失的）",
+      "列出外部机会（不可控的、有利的趋势）",
+      "列出外部威胁（不可控的、不利的趋势）",
+      "交叉推演：SO 策略、WO 策略、ST 策略、WT 策略"
+    ],
+    "advantages": [
+      "结构简单，沟通成本低",
+      "强制区分内外因素，减少归因偏差",
+      "便于跨部门横向讨论"
+    ],
+    "disadvantages": [
+      "容易流于表面，产出泛泛的四张清单",
+      "缺乏内在逻辑，条目之间可能互相矛盾",
+      "对分析者的领域经验依赖很高"
+    ],
+    "limitations": [
+      "不适合需要精确量化与预测的决策",
+      "不适合快速变化的动态环境（快照式分析）"
+    ],
+    "misconceptions": [
+      "误把 SWOT 当成「一次分析做完」—— 它是需要持续更新的动态框架",
+      "误把四个象限当成评价标准 —— 优势不等于该做的，劣势不一定该改",
+      "误以为做完四象限就完成分析 —— 真正的价值在交叉推演"
+    ]
+  },
+  "evidence": {
+    "level": "medium",
+    "claims": [
+      {
+        "id": "claim_swot_1",
+        "category": "origin",
+        "statement": "SWOT 于 1960 年代由斯坦福研究院相关学者在竞争战略研究中形成，后被 Andrews 等人纳入战略规划框架。",
+        "sourceIds": [
+          "src_swot_original"
+        ],
+        "strength": 0.8,
+        "notes": null
+      }
+    ],
+    "confidence": 0.75
+  },
+  "relatedIds": [
+    "method_okr",
+    "method_decision_tree"
+  ],
+  "caseIds": [],
+  "tags": [
+    "战略分析",
+    "环境扫描"
+  ],
+  "status": "approved",
+  "article": null,
+  "version": 4,
+  "createdAt": "2026-11-08T11:40:36.853Z",
+  "updatedAt": "2026-11-08T11:51:28.238Z",
+  "lastResearchedAt": "2026-11-08T11:51:17.063Z",
+  "history": [
+    {
+      "version": 1,
+      "at": "2026-11-08T11:40:45.437Z",
+      "summary": "创建方法论档案",
+      "changeType": "create",
+      "by": "user"
+    },
+    {
+      "version": 2,
+      "at": "2026-11-08T11:47:37.007Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-08T11:49:08.599Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    },
+    {
+      "version": 4,
+      "at": "2026-11-08T11:51:28.238Z",
+      "summary": "更新方法论档案",
+      "changeType": "update",
+      "by": "user"
+    }
+  ]
+}
